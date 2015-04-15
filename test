@@ -1,4 +1,4 @@
-/* Copyright (c) 2013-2014, The Linux Foundation. All rights reserved.
+/* Copyright (c) 2013, The Linux Foundation. All rights reserved.
  *
  * This program is free software; you can redistribute it and/or modify
  * it under the terms of the GNU General Public License version 2 and
@@ -39,7 +39,6 @@
 			<26 512 2128000 4256000>, <89 604 0 6400000>,
 			<26 512 2400000 4800000>, <89 604 0 6800000>;
 
-
 		/* GDSC oxili regulators */
 		vddcx-supply = "\0";
 		vdd-supply = <&gdsc_oxili_cx>;
@@ -70,7 +69,7 @@
 			};
 
 			qcom,gpu-pwrlevel@2 {
-		                reg = <2>;
+		        reg = <2>;
 				qcom,gpu-freq = <320000000>;
 				qcom,bus-freq = <2>;
 				qcom,io-fraction = <33>;
